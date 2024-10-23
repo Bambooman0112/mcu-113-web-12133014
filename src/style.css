@@ -20,6 +20,9 @@ nav {
 ul {
   list-style: none;
   border-left: 0;
+  padding: 0;
+  display: flex;
+  justify-content:space-between;
 }
 
 ul > li {
@@ -90,4 +93,17 @@ td.price {
 
 footer {
   margin-top: 20px;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card{
+  border: solid 1px #999;
+  padding: 10px;
+  border-radius: 8px;
+  flex-basis: 250px;
 }
